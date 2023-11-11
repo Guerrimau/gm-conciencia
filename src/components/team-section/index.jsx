@@ -3,7 +3,7 @@ import React from 'react'
 
 const TeamSection = () => {
   return (
-    <section className="flex mt-36 items-center bg-white rounded-3xl p-10">
+    <section id="team" className="flex mt-36 items-center bg-white rounded-3xl p-10">
       <Image
         width={300}
         alt="NextUI hero Image"

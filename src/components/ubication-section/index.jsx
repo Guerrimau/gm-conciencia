@@ -1,6 +1,6 @@
 const UbicationSection = () => {
   return (
-    <section className="mt-36 rounded-2xl bg-primary-600 flex space-x-5 justify-between p-14 text-foreground-200">
+    <section id="ubication" className="mt-36 rounded-2xl bg-primary-600 flex space-x-5 justify-between p-14 text-foreground-200">
       <div className="w-1/2">
         <h3 className="text-4xl font-semibold">Nuestra ubicación</h3>
         <p className="mt-5 text-xl font-light">Estamos convenientemente ubicados en el corazón de Apodaca para brindarte fácil acceso a nuestros servicios. Tu bienestar está a solo un paso de distancia. Aquí está nuestra dirección:</p>

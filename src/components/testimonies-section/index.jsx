@@ -2,7 +2,7 @@ import { Card, CardBody, CardFooter } from "@nextui-org/react"
 
 const TestimoniesSection = () => {
   return (
-    <section className="mt-36">
+    <section id="testimonies" className="mt-36">
       <h3 className="text-4xl font-semibold text-center">Testimonios</h3>
       <div className="overflow-y-auto mt-10 pb-2">
         <div className="w-fit flex gap-5">

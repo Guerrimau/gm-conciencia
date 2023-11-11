@@ -2,7 +2,7 @@ import { Card, CardBody } from '@nextui-org/react'
 
 const ServicesSection = () => {
   return (
-    <section className="mt-36">
+    <section id="services" className="mt-36">
       <h3 className="text-4xl font-semibold text-center">Nuestros servicios</h3>
       <div className="grid grid-cols-3 gap-10 mt-10">
         <div className="flex items-center flex-col space-y-5">
