@@ -3,12 +3,13 @@ import { Button, Navbar, NavbarBrand, Link, NavbarContent } from '@nextui-org/re
 const NavbarSection = () => {
   return (
     <Navbar>
-      <NavbarBrand>
+      <NavbarBrand className="justify-center md:justify-start">
         <BrainIcon />
-        <p className="font-bold text-xl ml-1 text-primary-900">Grupo Medico Conciencia</p>
+        <p className="font-bold text-xl ml-1 text-primary-900 md:hidden">GM Conciencia</p>
+        <p className="hidden font-bold text-xl ml-1 text-primary-900 md:inline">Grupo Medico Conciencia</p>
       </NavbarBrand>
 
-      <NavbarContent justify="end">
+      <NavbarContent className="hidden sm:flex" justify="end">
         <Link className="font-semibold" color="foreground" href="#landing">Inicio</Link>
         <Link className="font-semibold" color="foreground" href="#services">Servicios</Link>
         <Link className="font-semibold" color="foreground" href="#testimonies">Testimonios</Link>
