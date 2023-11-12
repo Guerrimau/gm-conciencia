@@ -1,14 +1,12 @@
-import { Card, CardBody } from '@nextui-org/react'
-
 const ServicesSection = () => {
   return (
-    <section id="services" className="mt-36">
-      <h3 className="text-4xl font-semibold text-center">Nuestros servicios</h3>
-      <div className="grid grid-cols-3 gap-10 mt-10">
+    <section id="services" className="mt-36 p-6 md:p-0">
+      <h3 className="text-2xl md:text-4xl font-semibold text-center">Nuestros servicios</h3>
+      <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-8 md:gap-10 mt-10">
         <div className="flex items-center flex-col space-y-5">
           <GroupIcon />
           <h4 className="font-light text-xl">Terapia Individual y de Pareja</h4>
-          <p className="text-center text-lg">Experimenta un espacio seguro para explorar tus pensamientos y emociones. Ofrecemos terapia individual y de pareja para abordar desafíos relacionales y personales.</p>
+          <p className="text-center">Experimenta un espacio seguro para explorar tus pensamientos y emociones. Ofrecemos terapia individual y de pareja para abordar desafíos relacionales y personales.</p>
         </div>
         <div className="flex items-center flex-col space-y-5">
           <ClipboardIcon />

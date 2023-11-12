@@ -1,15 +1,14 @@
 const UbicationSection = () => {
   return (
-    <section id="ubication" className="mt-36 rounded-2xl bg-primary-600 flex space-x-5 justify-between p-14 text-foreground-200">
-      <div className="w-1/2">
-        <h3 className="text-4xl font-semibold">Nuestra ubicación</h3>
-        <p className="mt-5 text-xl font-light">Estamos convenientemente ubicados en el corazón de Apodaca para brindarte fácil acceso a nuestros servicios. Tu bienestar está a solo un paso de distancia. Aquí está nuestra dirección:</p>
-        <p className="mt-2 text-xl font-bold">Carretera Mezquital Santa Rosa Esquina con Av. Gaseoducto. Interior Multicomercial Apodaca Planta Alta, Consultorio 360-361 Apodaca, Nuevo Leon, Mexico. CP 66610</p>
+    <section id="ubication" className="rounded-2xl bg-primary-600 flex flex-col md:flex-row spacey justify-between p-6 md:p-14 mx-5 md:mx-0 mt-36 text-foreground-200">
+      <div className="w-full md:w-1/2">
+        <h3 className="text-2xl md:text-4xl font-semibold">Nuestra ubicación</h3>
+        <p className="mt-5 text-base md:text-xl font-light">Estamos convenientemente ubicados en el corazón de Apodaca para brindarte fácil acceso a nuestros servicios. Tu bienestar está a solo un paso de distancia. Aquí está nuestra dirección:</p>
+        <p className="mt-2 text-base md:text-xl font-bold">Carretera Mezquital Santa Rosa Esquina con Av. Gaseoducto. Interior Multicomercial Apodaca Planta Alta, Consultorio 360-361 Apodaca, Nuevo Leon, Mexico. CP 66610</p>
       </div>
       <iframe
         height="350"
-        width="50%"
-        className="rounded-2xl"
+        className="rounded-2xl w-full md:w-1/2 mt-5 ml-0 md:mt-0 md:ml-5"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
