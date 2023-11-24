@@ -7,7 +7,8 @@ const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Grupo Medico Conciencia",
-  description: "Descubre el apoyo integral para tu salud mental en Grupo Médico Consciencia, con psiquiatras especializados en Monterrey. Ofrecemos terapia individual y de pareja, evaluación psiquiátrica comprensiva y atención de primera vez y seguimiento. Tratamos depresión, ansiedad, trastorno bipolar y más. ¡Inicia tu viaje hacia el bienestar emocional hoy!",
+  description:
+    "Descubre el apoyo integral para tu salud mental en Grupo Médico Consciencia, con psiquiatras especializados en Monterrey. Ofrecemos terapia individual y de pareja, evaluación psiquiátrica comprensiva y atención de primera vez y seguimiento. Tratamos depresión, ansiedad, trastorno bipolar y más. ¡Inicia tu viaje hacia el bienestar emocional hoy!",
 };
 
 export default function RootLayout({ children }) {
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta
           name="google-site-verification"
-          content="LIf37s0--eThhB_jHjMAKAJn4ZLV6DXcHTXmyw38LRA"
+          content="8PrZVIDdbfgn5BLDzkM0lrFeLJF3mfZVjZNiZK7gQPU"
         />
       </head>
       <body
