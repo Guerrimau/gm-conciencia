@@ -14,7 +14,7 @@ const LandingSection = () => {
           aquí para acompañarte en tu viaje hacia el bienestar emocional.
         </h2>
         <Button className="w-full md:w-fit" size="lg" color="primary">
-          <a className="mt-5" href="https://wa.link/vlynwc" target="_blank">
+          <a href="https://wa.link/vlynwc" target="_blank">
             Contáctanos
           </a>
         </Button>
