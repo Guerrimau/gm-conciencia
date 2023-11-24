@@ -5,8 +5,8 @@ const NavbarSection = () => {
     <Navbar>
       <NavbarBrand className="justify-center md:justify-start">
         <BrainIcon />
-        <p className="font-bold text-xl ml-1 text-primary-900 md:hidden">GM Conciencia</p>
-        <p className="hidden font-bold text-xl ml-1 text-primary-900 md:inline">Grupo Medico Conciencia</p>
+        <p className="font-bold text-xl ml-1 text-primary-900 md:hidden">GM Consciencia</p>
+        <p className="hidden font-bold text-xl ml-1 text-primary-900 md:inline">Grupo Medico Consciencia</p>
       </NavbarBrand>
 
       <NavbarContent className="hidden sm:flex" justify="end">
