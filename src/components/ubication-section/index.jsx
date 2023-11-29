@@ -9,9 +9,9 @@ const UbicationSection = () => {
       <iframe
         height="350"
         className="rounded-2xl w-full md:w-1/2 mt-5 ml-0 md:mt-0 md:ml-5"
-        allowfullscreen=""
+        allowFullScreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1270075515436!2d-100.22427471672411!3d25.794266970055133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662ed068b1a00e9%3A0xf0dbf780e3344440!2sMulticomercial%20Apodaca!5e0!3m2!1ses!2smx!4v1699719171027!5m2!1ses!2smx" ></iframe>
     </section>
   )
