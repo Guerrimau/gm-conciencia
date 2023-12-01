@@ -1,4 +1,5 @@
 import { google } from "googleapis";
+import { get } from '@vercel/edge-config';
 
 export async function POST(request) {
   const { name, email, cel } = await request.json();
@@ -9,7 +10,10 @@ export async function POST(request) {
 
   const range = "clients!A:C";
 
+  const googleApplicationCredentials = await get("google_application_credentials");
+
   const auth = await google.auth.getClient({
+    credentials: googleApplicationCredentials,
     scopes: ["https://www.googleapis.com/auth/spreadsheets"],
   });
 
